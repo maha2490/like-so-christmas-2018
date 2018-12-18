@@ -1,0 +1,98 @@
+body {
+  /* other good options: green stars page 7 */
+    /* background-image: url('http://dl.glitter-graphics.net/pub/1006/1006421ccck3sm3lq.gif');   */
+    /* background-image: url(http://dl.glitter-graphics.com/pub/479/479517d7b20sf4jy.gif) */
+    background-image: url(http://dl.glitter-graphics.com/pub/2926/2926658tqju22q6sm.gif)
+  }
+  
+  p {
+    background: black;
+    color: pink;
+    font-family: "Comic Sans MS", "arial", sans-serif;
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    width: 80%
+  }
+  
+  header {
+    background: pink;
+    width: 100%;
+  }
+  
+  h2 {
+    background: pink;
+    color: black;
+    font-family: "Comic Sans MS", "Helvetica", "Arial", sans-serif;
+    font-size: 40px;
+    margin: 40px auto;
+    padding: 10px;
+    text-align: center;
+    width: 50%
+  }
+  
+  strong {
+    color: #fff;
+    font-weight: bold;
+    text-decoration:underline;
+  }
+  
+  .titleglitter {
+    margin: 20px auto;
+    width: 100%;
+  }
+  
+  .separator {
+    background:url('https://s3-ec.buzzfed.com/static/enhanced/webdr02/2013/3/23/20/anigif_enhanced-buzz-17795-1364084800-6.gif') repeat-x;
+    height: 100px;
+    margin 0px auto;
+    width: 100%; 
+  }
+  
+  .separator2 { 
+    background:url('http://www.myspaceantics.com//images/myspace-graphics/dividers/sparkle-floral.gif') repeat-x;
+    height: 50px;
+    margin 0 auto;
+    padding: 10px 0;
+    width: 100%; 
+  }
+  
+  .construction-zone {
+    background: pink;
+    margin: 30px auto;
+    padding: 5px;
+    text-align: center;
+    width: 60%;
+  }
+  
+  .movie {
+    background:url('http://wallpoper.com/images/00/29/23/48/pattern-yellow_00292348.png');
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+  }
+  
+  article { 
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+.intro-banner {
+  color: #b30000;
+  padding: 20px 10px;
+}
+
+.quiz-wrapper {
+  width: 50%;
+  margin: auto;
+}
+.finger-wrapper {
+  text-align: center;
+  margin-top: 60px;
+}
+.finger {
+    transform: rotate(130deg)
+}
