@@ -82,18 +82,35 @@ body {
   }
 
 .intro-banner {
-  color: #b30000;
+  color: #e6357b;
   padding: 20px 10px;
+}
+
+.intro-banner .title {
+  font-size: 40px;
+  display: block;
+}
+
+.countdown strong {
+  color: #bfff00;
 }
 
 .quiz-wrapper {
   width: 50%;
   margin: auto;
 }
+
+.quiz-wrapper table {
+  padding: 14px 0;
+}
 .finger-wrapper {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 15rem;
 }
 .finger {
     transform: rotate(130deg)
+}
+#mouse-image{
+  width: 2rem;
+  position:absolute;
 }

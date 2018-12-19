@@ -1,0 +1,140 @@
+.tree {
+  position: relative;
+  left: 50%;
+  top: 12rem;
+  margin: -170px 0 0 -150px;
+  height: 340px;
+  -webkit-transform-origin: 150px 0%;
+  -moz-transform-origin: 150px 0%;
+  -ms-transform-origin: 150px 0%;
+  -o-transform-origin: 150px 0%;
+  transform-origin: 150px 0%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: rotate 5s linear infinite;
+  -moz-animation: rotate 5s linear infinite;
+  animation: rotate 5s linear infinite;
+}
+.tree figure {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  opacity: 0.8;
+  -webkit-transform-origin: 100% 0%;
+  -moz-transform-origin: 100% 0%;
+  -ms-transform-origin: 100% 0%;
+  -o-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+}
+.tree figure.f1 {
+  -webkit-transform: rotate3d(0, 1, 0, 0deg);
+  -moz-transform: rotate3d(0, 1, 0, 0deg);
+  -ms-transform: rotate3d(0, 1, 0, 0deg);
+  -o-transform: rotate3d(0, 1, 0, 0deg);
+  transform: rotate3d(0, 1, 0, 0deg);
+}
+.tree figure.f2 {
+  -webkit-transform: rotate3d(0, 1, 0, 45deg);
+  -moz-transform: rotate3d(0, 1, 0, 45deg);
+  -ms-transform: rotate3d(0, 1, 0, 45deg);
+  -o-transform: rotate3d(0, 1, 0, 45deg);
+  transform: rotate3d(0, 1, 0, 45deg);
+}
+.tree figure.f3 {
+  -webkit-transform: rotate3d(0, 1, 0, 90deg);
+  -moz-transform: rotate3d(0, 1, 0, 90deg);
+  -ms-transform: rotate3d(0, 1, 0, 90deg);
+  -o-transform: rotate3d(0, 1, 0, 90deg);
+  transform: rotate3d(0, 1, 0, 90deg);
+}
+.tree figure.f4 {
+  -webkit-transform: rotate3d(0, 1, 0, 135deg);
+  -moz-transform: rotate3d(0, 1, 0, 135deg);
+  -ms-transform: rotate3d(0, 1, 0, 135deg);
+  -o-transform: rotate3d(0, 1, 0, 135deg);
+  transform: rotate3d(0, 1, 0, 135deg);
+}
+.tree figure.f5 {
+  -webkit-transform: rotate3d(0, 1, 0, 180deg);
+  -moz-transform: rotate3d(0, 1, 0, 180deg);
+  -ms-transform: rotate3d(0, 1, 0, 180deg);
+  -o-transform: rotate3d(0, 1, 0, 180deg);
+  transform: rotate3d(0, 1, 0, 180deg);
+}
+.tree figure.f6 {
+  -webkit-transform: rotate3d(0, 1, 0, 225deg);
+  -moz-transform: rotate3d(0, 1, 0, 225deg);
+  -ms-transform: rotate3d(0, 1, 0, 225deg);
+  -o-transform: rotate3d(0, 1, 0, 225deg);
+  transform: rotate3d(0, 1, 0, 225deg);
+}
+.tree figure.f7 {
+  -webkit-transform: rotate3d(0, 1, 0, 270deg);
+  -moz-transform: rotate3d(0, 1, 0, 270deg);
+  -ms-transform: rotate3d(0, 1, 0, 270deg);
+  -o-transform: rotate3d(0, 1, 0, 270deg);
+  transform: rotate3d(0, 1, 0, 270deg);
+}
+.tree figure.f8 {
+  -webkit-transform: rotate3d(0, 1, 0, 315deg);
+  -moz-transform: rotate3d(0, 1, 0, 315deg);
+  -ms-transform: rotate3d(0, 1, 0, 315deg);
+  -o-transform: rotate3d(0, 1, 0, 315deg);
+  transform: rotate3d(0, 1, 0, 315deg);
+}
+.tree figure span {
+  display: block;
+  width: 0;
+  height: 0;
+}
+.tree figure .i1 {
+  margin: 0 0 0 90px;
+  border-bottom: 120px solid #46c500;
+  border-left: 60px solid transparent;
+}
+.tree figure .i2 {
+  margin: -40px 0 0 50px;
+  border-bottom: 140px solid #4eda00;
+  border-left: 100px solid transparent;
+}
+.tree figure .i3 {
+  margin: -60px 0 0 0;
+  border-bottom: 180px solid #55ee00;
+  border-left: 150px solid transparent;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate3d(0, 1, 0, 0deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+@-moz-keyframes rotate {
+  0% {
+    -moz-transform: rotate3d(0, 1, 0, 0deg);
+  }
+  100% {
+    -moz-transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate3d(0, 1, 0, 0deg);
+    -moz-transform: rotate3d(0, 1, 0, 0deg);
+    -ms-transform: rotate3d(0, 1, 0, 0deg);
+    -o-transform: rotate3d(0, 1, 0, 0deg);
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 1, 0, 360deg);
+    -moz-transform: rotate3d(0, 1, 0, 360deg);
+    -ms-transform: rotate3d(0, 1, 0, 360deg);
+    -o-transform: rotate3d(0, 1, 0, 360deg);
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
